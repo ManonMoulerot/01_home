@@ -1,0 +1,78 @@
+.bg-1 {
+    background-color: #636363;
+    height:100vh;
+}
+
+.bg-2 {
+    background-image: url(images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-3 {
+    background-image: url(images/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+
+#button {
+    background-color: transparent;
+    border-color:transparent;
+}
+
+.navbar {
+    position: absolute; 
+}
+
+/* header*/
+
+.header h1,.header h2 {
+    color: white;
+}
+
+#arrow .pt-5 {
+    padding-top: 7rem!important;
+}
+
+#title .pt-5 {
+    padding-top: 15rem!important;
+}
+
+#title h1 {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+#title h2 {
+    font-family:'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+#title em {
+    font-style: italic;
+}
+
+/*About Our Agency*/
+
+#about-our-agency h2 {
+    font-family:'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+#about-our-agency p {
+    font-family: sans-serif;
+    color: #636363;
+    font-size: 1rem;
+}
+
+/*number*/
+
+#number p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.9rem;
+
+}

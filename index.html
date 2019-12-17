@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header container-fluid bg-1">
+        <!-- s'adapte au viewport taille de l'écran -->
+        <div class="container  pt-4 pb-5">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="col-1 offset-9 offset-sm-9 offset-md-10 offset-lg-10">
+                    <nav class="navbar navbar-dark">
+                        <button class="nvbar-toggler" id="button" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <img src="images/menu.png" alt="">
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Our Agency</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Best Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Latest Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Info</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="title">
+            <div class="row pt-5 pb-5">
+                <div class="col-12">
+                    <h1 class="text-center text-uppercase">New branding agency</h1>
+                    <h2 class="text-center">We are about to change the way<br/><em>you publish on web</em></h2>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="arrow">
+            <div class="row pt-5 pb-5">
+                <div class="col-12">
+                    <a href="#about-our-agency"><img src="images/arrow_03.png" class="mx-auto d-block" alt="arrow" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container" id="about-our-agency">
+            <div class="row pt-5 pb-5">
+                <div class="col-8 offset-2">
+                    <h2 class="text-center pt-4 pb-3">About Our Agency</h2>
+                    <p class="text-center">We are a new design studio based in USA. We have over 20 years of combined
+                        experience, and know a thing or two aboute designig websites ans mobile apps. Clever use of
+                        technology and lean processes enable us to work faster ans smarter</p>
+                    <a href="#"><img src="images/signature.png" class="mx-auto d-block pt-2 pb-5" alt="arrow"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-2">
+        <div class="container" id="number">
+            <div class="row text-uppercase">
+                <div class="col-3 d-flex">
+                    <img src="images/suit.png" alt="suit logo" height="38" width="42">
+                    <p>548<br />Projects Completes</p>
+                </div>
+                <div class="col-3 d-flex">
+                    <img src="images/clock.png" alt="clock logo" height="38" width="42">
+                    <p>1465<br />Working Hours</p>
+                </div>
+                <div class="col-3 d-flex">
+                    <img src="images/star.png" alt="star logo" height="38" width="42">
+                    <p>612<br />Positive FeedBacks</p>
+                </div>
+                <div class="col-3 d-flex">
+                    <img src="images/heart.png" alt="heart logo" height="38" width="42">
+                    <p>735<br />Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Best Projects</h2>
+                    <p class="text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris.
+                        Etiam,pellentesque faucibus.<br />Vestibilum gravida volupat ipsum non ultrices.</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://picsum.photos/360/250" alt="image">
+                        <img src="https://picsum.photos/360/250" alt="image">
+                        <img src="https://picsum.photos/360/530" alt="image">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/360/530" alt="image">
+                        <h3 class="text-center">Vinil Record</h3>
+                        <p class="text-center">Photography</p>
+                        <img src="https://picsum.photos/360/250" alt="image">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/360/250" alt="image">
+                        <img src="https://picsum.photos/360/530" alt="image">
+                        <img src="https://picsum.photos/360/250" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide bg-3" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active ">
+                <p class="text-center d-block w-100"><em>"Outstanding job and exceeded all expectations.It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</em></p>
+                <span class="text-center d-block w-100">Michael </span>
+            </div>
+            <div class="carousel-item">
+                <p class="text-center d-block w-100"><em>"Outstanding  all expectations.It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</em></p>
+                <span class="text-center d-block w-100">Michael Hopkins</span>
+            </div>
+            <div class="carousel-item">
+                <p class="text-center d-block w-100"><em>"Outstanding job and exceeded all expectations.It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."</em></p>
+                <span class="text-center d-block w-100">Michael Hopkins</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
