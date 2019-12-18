@@ -13,15 +13,15 @@
 </head>
 
 <body>
-    <div class="header container-fluid bg-1">
+    <div class=" container-fluid bg-1">
         <!-- s'adapte au viewport taille de l'écran -->
-        <div class="container  pt-4 pb-5">
+        <div class="header pb-5 pt-3 container-xl d-flex flex-column justify-content-between h-100">
             <div class="row">
-                <div class="col-1">
+                <div class="col-12">
                     <img src="images/logo.png" alt="logo">
-                </div>
-                <div class="col-1 offset-9 offset-sm-9 offset-md-10 offset-lg-10">
+
                     <nav class="navbar navbar-dark">
+
                         <button class="nvbar-toggler nn" id="button" type="button" data-toggle="collapse"
                             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -49,27 +49,31 @@
                     </nav>
                 </div>
             </div>
-        </div>
-        <div class="container" id="title">
-            <div class="row pt-5 pb-5">
+
+            <div class="row">
                 <div class="col-12">
                     <h1 class="text-center text-uppercase">New branding agency</h1>
                     <h2 class="text-center">We are about to change the way<br/><em>you publish on web</em></h2>
                 </div>
             </div>
-        </div>
-        <div class="container" id="arrow">
-            <div class="row pt-5 pb-5">
+
+            <div class="row">
                 <div class="col-12">
                     <a href="#about-our-agency"><img src="images/arrow_03.png" class="mx-auto d-block" alt="arrow" ></a>
                 </div>
             </div>
-        </div>
+
     </div>
+    </div>
+
+
+
+
+    
     <div class="container-fluid">
         <div class="container" id="about-our-agency">
             <div class="row pt-5 pb-5">
-                <div class="col-8 offset-2">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
                     <h2 class="text-center pt-4 pb-3">About Our Agency</h2>
                     <p class="text-center">We are a new design studio based in USA. We have over 20 years of combined
                         experience, and know a thing or two aboute designig websites ans mobile apps. Clever use of
@@ -81,27 +85,28 @@
     </div>
     <div class="container-fluid bg-2">
         <div class="container" id="number">
-            <div class="row text-uppercase pt-5 pb-5">
-                <div class="col-3 d-flex">
+            <div class="row text-uppercase  pt-5 pb-5">
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-md-center justify-content-center">
                     <img src="images/suit.png" class="mr-4" alt="suit logo" height="38" width="42">
                     <p>548<br />Projects Completes</p>
                 </div>
-                <div class="col-3 d-flex">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-md-center justify-content-center">
                     <img src="images/clock.png" class="mr-4" alt="clock logo" height="38" width="42">
                     <p>1465<br />Working Hours</p>
                 </div>
-                <div class="col-3 d-flex">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-md-center justify-content-center">
                     <img src="images/star.png" class="mr-4" alt="star logo" height="38" width="42">
                     <p>612<br />Positive FeedBacks</p>
                 </div>
-                <div class="col-3 d-flex">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-md-center justify-content-center">
                     <img src="images/heart.png" class="mr-4" alt="heart logo" height="38" width="42">
                     <p>735<br />Happy Clients</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid bg-4">
         <div class="container" id="best-projects">
             <div class="row pt-5 pb-3"">
                 <div class="col-12">
@@ -143,36 +148,6 @@
                     <img class="card-img" src="https://picsum.photos/370/250" alt="image">
                 </div>
               </div>
-            <!--
-            <div class="row pt-5 pb-5"">
-                <div class="col-12">
-                    <h2 class="text-center pt-4 pb-3">Best Projects</h2>
-                    <p class="text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris.
-                        Etiam,pellentesque faucibus.<br />Vestibilum gravida volupat ipsum non ultrices.</p>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <div>
-                        <img src="https://picsum.photos/360/250" alt="image">
-                        <img src="https://picsum.photos/360/250" alt="image">
-                        </div>
-                        <div>
-                        <img src="https://picsum.photos/360/530" alt="image">
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <img src="https://picsum.photos/360/530" alt="image">
-                        <h3 class="text-center">Vinil Record</h3>
-                        <p class="text-center">Photography</p>
-                        <img src="https://picsum.photos/360/250" alt="image">
-                    </div>
-                    <div class="col-4">
-                        <img src="https://picsum.photos/360/250" alt="image">
-                        <img src="https://picsum.photos/360/530" alt="image">
-                        <img src="https://picsum.photos/360/250" alt="image">
-                    </div>
-                </div>
-            </div>-->
         </div>
     </div>
     <div id="carouselExampleSlidesOnly" class="carousel slide bg-3 pt-5 pb-5" data-ride="carousel" >
@@ -198,6 +173,8 @@
             </div>
         </div>
     </div>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
