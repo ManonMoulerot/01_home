@@ -9,7 +9,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,26 +25,22 @@
     <div class="container">
       <div class="row pt-5 pb-5">
         <div class="col-12 d-flex justify-content-between">
-          <div class="col-md-2 col-lg-2 col-sm-4 p-0 text-center"><img src="images/image1.png" class="img-fluid"
-              alt="Responsive image"></div>
-          <div class="col-md-2 col-lg-2 col-sm-4 p-0 text-center"><img src="images/image2.png" class="img-fluid"
-              alt="Responsive image"></div>
-          <div class="col-md-2 col-lg-2 col-sm-4 p-0 text-center"><img src="images/image3.png" class="img-fluid"
-              alt="Responsive image"></div>
-          <div class="col-md-2 col-lg-2 col-sm-6 p-0 text-center"><img src="images/image4.png" class="img-fluid"
-              alt="Responsive image"></div>
-          <div class="col-md-2 col-lg-2 col-sm-6 p-0 text-center"><img src="images/image5.png" class="img-fluid"
-              alt="Responsive image"></div>
+          <div class=""><img src="images/image1.png" class="img-fluid" alt="Responsive image"></div>
+          <div class=""><img src="images/image2.png" class="img-fluid" alt="Responsive image"></div>
+          <div class=""><img src="images/image3.png" class="img-fluid" alt="Responsive image"></div>
+          <div class=""><img src="images/image4.png" class="img-fluid" alt="Responsive image"></div>
+          <div class=""><img src="images/image5.png" class="img-fluid" alt="Responsive image"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid bg-primary">
-    <div class="container">
+  <div class="container-fluid bg-primary pb-5">
+    <div class="container pb-5">
       <div class="row d-flex justify-content-center p-5">
-        <h5 class="text-center col-12">Latest Blog</h5>
-        <p class="col-8 text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque
+        <h5 class="text-center col-12 pb-3">Latest Blog</h5>
+        <p class="col-8 text-center WorkSans text-primary">Donec orci sem, pretium ac dolor et, faucibus faucibus
+          mauris. Etiam,pellentesque
           faucibus.
           Vestibulum gravida volutpat ipsum non ultrices.</p>
       </div>
@@ -45,39 +49,43 @@
         <div class="col-12">
           <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active d-flex justify-content-between">
-                <div class="card" style="width: 18rem;">
-                  <img src="images/image1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                <div class="card" style="width: 21.5rem;">
+                  <img src="images/image1.png" class="card-img-top" alt="image1">
+                  <p class="vignette bg-dark text-white text-center ml-2">NATURE</p>
+                  <div class="card-body pl-4">
                     <h4>Something I need to tell you</h4>
-                    <p>MAY 16, 2016</p>
-                    <p class="card-text">Mauris sed odio tincidunt, volutpat augue,
+                    <p class="date">MAY 16, 2016</p>
+                    <p class="card-text WorkSans text-primary">Mauris sed odio tincidunt, volutpat augue,
                       commodo dui. Phasellus hendrerit condi
                       ntum vehicula.</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="images/image2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
+                <div class="card" style="width: 21.5rem;">
+                  <img src="images/image2.png" class="card-img-top" alt="image2">
+                  <p class="vignette bg-dark text-white text-center ml-2">BRANDING</p>
+                  <div class="card-body pl-4">
                     <h4>Are you doing The Rignt Way?</h4>
-                    <p>MAY 28, 2016</p>
-                    <p class="card-text">Curabitur et diam ut magna pulvinar euis
+                    <p class="date">MAY 28, 2016</p>
+                    <p class="card-text WorkSans text-primary">Curabitur et diam ut magna pulvinar euis
                       mod. Sed metus purus, ornare id moltie,
                       laoreet vitae magna.</p>
                   </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="images/image3.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h4 class="">Why you should Always First</h4>
-                    <p>JUNE 01, 2016</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.</p>
+                <div class="card" style="width: 21.5rem;">
+                  <img src="images/image3.png" class="card-img-top" alt="image3">
+                  <p class="vignette bg-dark text-white text-center ml-2">DESIGN</p>
+                  <div class="card-body pl-4">
+                    <h4>Why you should Always First</h4>
+                    <p class="date">JUNE 01, 2016</p>
+                    <p class="card-text WorkSans text-primary">Mauris sed odio tincidunt, volutpat augue,
+                      commodo dui. Phasellus hendrerit condi
+                      ntum vehicula.</p>
                   </div>
                 </div>
               </div>
@@ -89,98 +97,112 @@
                 <img src="images/image3.png" class="d-block w-100" alt="...">
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid bg-primary">
+  <div class="container-fluid bg-primary border-top pb-5">
     <div class="container">
-      <div class="row">
-        <div class="col-12 pt-5 pb-5 d-flex">
-          <div class="info col-md-5">
-            <h4>Contact Info:</h4>
-            <p>Praesent interdum congue mauris, et fringilla lacus pel
-              vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse
-              vitae sapien at imperdiet risus. Quisque cursus risus id.
-              fermentum, in auctor quam consectetur.</p>
-            <p>Address: 10111 Santa Monica Boulevard, LA</p>
-            <p>Phone: +44 987 065 908</p>
-            <p>Email: info@Example.com</p>
-            <p>Fax: +44 987 065 909</p>
-
-          </div>
-          <div class="formulaire col-md-7">
-            <form class="formulaire" method="post">
-              <input type="text" class="col-md-3" required placeholder="Your Name" /> <input type="email"
-                class="col-md-3" required placeholder="Your Email" />
-              <input type="text" class="col-12" required placeholder="Your Title" />
-              <textarea class="col-12" name="message" required placeholder="Your comment" id="message"></textarea>
-              <input class="formsubmit bg-dark text-white border-0" type="submit" value="SUBMIT" />
-            </form>
-          </div>
+      <div class="row pt-5 pb-5">
+        <div class="info col-5 pt-5 pb-5 pr-5 d-flex flex-column">
+          <h5>Contact Info:</h5>
+          <p class="text-primary WorkSans pb-3">Praesent interdum congue mauris, et fringilla lacus pel
+            vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse
+            vitae sapien at imperdiet risus. Quisque cursus risus id.
+            fermentum, in auctor quam consectetur.</p>
+          <p class="text-primary WorkSans"><span class="text-dark">Address:</span> 10111 Santa Monica Boulevard, LA</p>
+          <p class="text-primary WorkSans"><span class="text-dark">Phone:</span> +44 987 065 908</p>
+          <p class="text-primary WorkSans"><span class="text-dark">Email:</span> info@Example.com</p>
+          <p class="text-primary WorkSans"><span class="text-dark">Fax:</span> +44 987 065 909</p>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="container-fluid bg-dark">
-    <div class="container">
-      <div class="row text-white">
-        <div class="col-md-4 d-flex flex-column">
-            <h4>About Us</h4>
-            <p>Aenean mattis augue in arcu tempor bibendum. 
-              Nam euismod facilisis magna, quis pharetra turpis 
-              molestie eu. Integer feugiat arcu sit amet leo 
-              ullamcorper feugiat efficitur.</p>
-              <div class="icones">
-                <img src="images/icone1.png" class="img-fluid" alt="Responsive image">
-                <img src="images/icone2.png" class="img-fluid" alt="Responsive image">
-                <img src="images/icone3.png" class="img-fluid" alt="Responsive image">
-                <img src="images/icone4.png" class="img-fluid" alt="Responsive image">
-                <img src="images/icone5.png" class="img-fluid" alt="Responsive image">
-                <img src="images/icone6.png" class="img-fluid" alt="Responsive image">
+        <div class="formulaire col-md-7 pt-5">
+          <form>
+            <div class="row">
+              <div class="col-12 p-0 essai d-flex justify-content-between">
+                <div class="col-6">
+                  <input type="text" class="form-control border-0 rounded-0" required placeholder="Your name">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control border-0 rounded-0" required placeholder="Your Email">
+                </div>
               </div>
-          </div>
-          
-        <div class="col-md-4">
-          <h4>Latest Twits</h4>
-          <div class="d-flex align-items-start">
+              <div class="col-12">
+                <input type="text" class="form-control border-0 rounded-0" required placeholder="Your Title">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control border-0 rounded-0" required placeholder="Your comment" rows="5"
+                  style="resize:none;"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary bg-dark border-0 rounded-0">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark pt-5 pb-5 ">
+    <div class="container pt-5 pb-5">
+      <div class="row text-white">
+        <div class="col-md-4 d-flex flex-column pr-1">
+          <h4 class="pb-3">About Us</h4>
+          <p>Aenean mattis augue in arcu tempor bibendum.
+            Nam euismod facilisis magna, quis pharetra turpis
+            molestie eu. Integer feugiat arcu sit amet leo
+            ullamcorper feugiat efficitur.</p>
+          <div class="icones w-50 pt-3 d-flex justify-content-between">
+            <img src="images/icone1.png" class="img-fluid" alt="Responsive image">
             <img src="images/icone2.png" class="img-fluid" alt="Responsive image">
-            <p>Duis eget finibus nibh. Vivamus sagittis 
+            <img src="images/icone3.png" class="img-fluid" alt="Responsive image">
+            <img src="images/icone4.png" class="img-fluid" alt="Responsive image">
+            <img src="images/icone5.png" class="img-fluid" alt="Responsive image">
+            <img src="images/icone6.png" class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h4 class="pb-3">Latest Twits</h4>
+          <div class="d-flex align-items-start">
+            <img src="images/icone2.png" class="img-fluid pr-3 pt-1" alt="Responsive image">
+            <p>Duis eget finibus nibh. Vivamus sagittis
               vulputate risus ac tincidunt.</p>
           </div>
-          <div class="">
-            <img src="images/icone2.png" class="img-fluid" alt="Responsive image">
+          <div class="d-flex align-items-start">
+            <img src="images/icone2.png" class="img-fluid pr-3 pt-1" alt="Responsive image">
             <p>Nam semper tortor sit amet arcu malesu
               ada, a sagittis tellus facilisis.</p>
           </div>
-          <div class="">
-            <img src="images/icone2.png" class="img-fluid" alt="Responsive image">
-            <p>Etiam cursus, tortor id pretium tincidunt, 
+          <div class="d-flex align-items-start">
+            <img src="images/icone2.png" class="img-fluid pr-3 pt-1" alt="Responsive image">
+            <p>Etiam cursus, tortor id pretium tincidunt,
               justo leo porta magna.</p>
           </div>
 
 
         </div>
         <div class="col-md-4">
-          <h4>Instagram</h4>
+          <h4 class="pb-4">Instagram</h4>
+          <div class="d-flex flex-wrap">
+            <img src="images/icone1.png" class="img-fluid w-25 pb-4 pr-4" alt="Responsive image">
+            <img src="images/icone2.png" class="img-fluid w-25 pb-4 pr-4" alt="Responsive image">
+            <img src="images/icone3.png" class="img-fluid w-25 pb-4 pr-4" alt="Responsive image">
+            <img src="images/icone4.png" class="img-fluid w-25 pb-4" alt="Responsive image">
+            <img src="images/icone5.png" class="img-fluid w-25 pr-4" alt="Responsive image">
+            <img src="images/icone6.png" class="img-fluid w-25 pr-4" alt="Responsive image">
+            <img src="images/icone1.png" class="img-fluid w-25 pr-4" alt="Responsive image">
+            <img src="images/icone2.png" class="img-fluid w-25" alt="Responsive image">
+          </div>
 
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-dark border-top pt-3">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center m-2 text-white">
