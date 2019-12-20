@@ -171,14 +171,80 @@
 
 /*François intégration*/
 
+.bg-primary{
+    background-color: #f6f6f6!important;
+}
 
+.bg-dark {
+    background-color: #0c0c0c!important;
+}
 
+.text-primary {
+    color: #909090!important;
+}
 
+h5{
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'PlayfairDisplay' sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.WorkSans{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.date{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    margin-bottom: -3rem;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+    border: 1px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+
+}
+.vignette{
+    width: 90px;
+    height: 30px;
+    padding-top: 2px;
+}
+
+.width-c {
+    width: 21.5rem;
+}
+
+#carouselExampleIndicators .card-img-top {
+    height: 240px;
+}
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     #best-projects .p-5 {
         padding: 3rem!important;
+    }
+    .width-c {
+        width: 18.5rem;
     }
 }
 
@@ -197,6 +263,11 @@
 
     #best-projects .p-5 {
         padding: 3.8rem!important;
+    }
+
+    .width-c {
+        width: 14rem;
+
     }
 }
 
@@ -225,6 +296,11 @@
 
     #best-projects .p-5 {
         padding:1.5rem!important;
+    }
+
+    .width-c {
+        width: 15.5rem;
+
     }
 }
 
