@@ -169,6 +169,13 @@
     padding-top: 7rem!important;
 }
 
+/*François intégration*/
+
+
+
+
+
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     #best-projects .p-5 {
         padding: 3rem!important;
@@ -209,6 +216,7 @@
     
     .header li {
         text-align: end;
+        font-size: 2rem;
     }
 
     .card-columns {
@@ -236,6 +244,7 @@
 
     .header li {
         text-align: end;
+        font-size: 2rem;
     }
 
     #carouselExampleSlidesOnly p {
@@ -248,3 +257,5 @@
         padding-top: 5em!important;
     }
 }
+
+/*test*/
